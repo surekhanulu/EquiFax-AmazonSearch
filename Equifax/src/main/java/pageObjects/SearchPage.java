@@ -12,9 +12,7 @@ public class SearchPage {
 	By search = By.cssSelector("input[id=twotabsearchtextbox]");
 	By search_button = By.cssSelector("input[type=submit]");
 	By matching_results = By.xpath("//div[contains(@class,'sg-col-4-of-12')]");
-	By price_symbol = By.className("a-price-symbol");
-	By whole_price = By.className("a-price-whole");
-	By fraction_price = By.className("a-price-fraction");
+	By price = By.className("a-price");
 
 	public SearchPage(WebDriver driver) {
 		this.drv = driver;
@@ -34,18 +32,8 @@ public class SearchPage {
 
 	}
 
-	public WebElement getPriceSymbol(WebElement element) {
-		return element.findElement(price_symbol);
-
-	}
-
-	public WebElement getWholePrice(WebElement element) {
-		return element.findElement(whole_price);
-
-	}
-
-	public WebElement getFractionPrice(WebElement element) {
-		return element.findElement(fraction_price);
+	public WebElement getPrice(WebElement element) {
+		return element.findElement(price);
 
 	}
 }

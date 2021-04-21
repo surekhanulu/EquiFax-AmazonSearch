@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="bdd.Equifax.HomePage">
+      <class name="ecom.Equifax.HomePage">
         <methods>
+          <include name="teardown"/>
+          <include name="addToCart"/>
           <include name="proceedToCheckout"/>
           <include name="initialize"/>
-          <include name="addToCart"/>
-          <include name="basePageNavigation"/>
         </methods>
-      </class> <!-- bdd.Equifax.HomePage -->
+      </class> <!-- ecom.Equifax.HomePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

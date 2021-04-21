@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="85668" started-at="2021-04-20T17:10:04Z" finished-at="2021-04-20T17:11:30Z">
+  <suite name="Default suite" duration-ms="25313" started-at="2021-04-21T19:27:14Z" finished-at="2021-04-21T19:27:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="85668" started-at="2021-04-20T17:10:04Z" finished-at="2021-04-20T17:11:30Z">
-      <class name="bdd.Equifax.HomePage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:bdd.Equifax.HomePage@4678c730]" name="initialize" is-config="true" duration-ms="32259" started-at="2021-04-20T10:10:04Z" finished-at="2021-04-20T10:10:36Z">
+    <test name="Default test" duration-ms="25313" started-at="2021-04-21T19:27:14Z" finished-at="2021-04-21T19:27:39Z">
+      <class name="ecom.Equifax.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:ecom.Equifax.HomePage@4678c730]" name="initialize" is-config="true" duration-ms="6698" started-at="2021-04-21T12:27:14Z" finished-at="2021-04-21T12:27:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:bdd.Equifax.HomePage@4678c730]" name="basePageNavigation" duration-ms="39602" started-at="2021-04-20T10:10:36Z" finished-at="2021-04-20T10:11:16Z">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:ecom.Equifax.HomePage@4678c730]" name="basePageNavigation" duration-ms="12010" started-at="2021-04-21T12:27:20Z" finished-at="2021-04-21T12:27:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="addToCart()[pri:0, instance:bdd.Equifax.HomePage@4678c730]" name="addToCart" duration-ms="5377" started-at="2021-04-20T10:11:16Z" finished-at="2021-04-20T10:11:21Z">
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:ecom.Equifax.HomePage@4678c730]" name="addToCart" duration-ms="1448" started-at="2021-04-21T12:27:32Z" finished-at="2021-04-21T12:27:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="proceedToCheckout()[pri:0, instance:bdd.Equifax.HomePage@4678c730]" name="proceedToCheckout" duration-ms="4231" started-at="2021-04-20T10:11:21Z" finished-at="2021-04-20T10:11:26Z">
+        <test-method status="PASS" signature="proceedToCheckout()[pri:0, instance:ecom.Equifax.HomePage@4678c730]" name="proceedToCheckout" duration-ms="993" started-at="2021-04-21T12:27:34Z" finished-at="2021-04-21T12:27:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- proceedToCheckout -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:bdd.Equifax.HomePage@4678c730]" name="teardown" is-config="true" duration-ms="4169" started-at="2021-04-20T10:11:26Z" finished-at="2021-04-20T10:11:30Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:ecom.Equifax.HomePage@4678c730]" name="teardown" is-config="true" duration-ms="4144" started-at="2021-04-21T12:27:35Z" finished-at="2021-04-21T12:27:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- bdd.Equifax.HomePage -->
+      </class> <!-- ecom.Equifax.HomePage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
