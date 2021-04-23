@@ -20,7 +20,7 @@ import pageObjects.SearchPage;
 import resources.Base;
 
 @Test
-public class HomePage extends Base {
+public class AmazonPriceTest extends Base {
 	private String expected_price;
 
 	@BeforeTest
